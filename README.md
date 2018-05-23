@@ -1,24 +1,22 @@
 # osinttw
-#####################################################################
-################    Phishing OSINT MODULE    ########################
-#####################################################################
+
+Phishing OSINT MODULE    
+
 
 Authors: (@networkseg1) - seguridadxredes[at]gmail.com
 Version 1.0.0
 
 
 DESCRIPTION
-===========================================
+
 
 Python script to feed a Database with information related to phishing. 
 
 
 
-** osint-tw.py: Python script to connect to Twitter Streamming API, downloading english or spanish phishing tweets and store them into 
-a MariaDB in real time.
+** osint-tw.py: Python script to connect to Twitter Streamming API, downloading english or spanish phishing tweets and store them into a MariaDB in real time.
 
-** database_osint.py: module to setup your Database parameters. This module is used in
-osint-tw.py.
+** database_osint.py: module to setup your Database parameters. This module is used inosint-tw.py.
 
 ** DBosint_tw.sql: a sql file to create the OSINT database and all the tables needs.
 
@@ -33,7 +31,7 @@ Debian -> Tested on Debian 9 64bits and python 3.4+
 
 
 OSINT MODULE INSTALLATION
-============================================
+
 
 Step 1: Run the script: setup.sh    (Installation Path: /opt/twosint/)
 ______________________________________________________________________________________         
